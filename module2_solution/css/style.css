@@ -11,7 +11,6 @@ body {
 
 h1 {
   text-align: center;
-  color: black;
 }
 
 section {
@@ -26,27 +25,25 @@ section > h2 {
   border-left: 1px solid black;
   width: 230px;
   text-align: center;
-  font-style: Times;
   font-size: 24px;
-  font-weight: bold;
   height: 45px;
   padding-top: 10px;
 }
 
 section.article1 > h2 {
-  background-color: #76b8db;
+  background-color: #76db7b;
 }
 
 section.article2 > h2 {
-  background-color: #4f7acd;
+  background-color: #cd4fa7;
 }
 
 section.article3 > h2 {
-  color: #e2e2e2;
+  color: #cec9c9;
   background-color: #10328a;
 }
 
-section > p {
+section p {
   padding: 40px 15px 15px 15px;
 }
 
@@ -159,8 +156,6 @@ section > p {
     width: 100%;
   }
 }
-
-/* Mobile view options */
 
 @media (max-width: 767px) {
   .col-sm-1,
